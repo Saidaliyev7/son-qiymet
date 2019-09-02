@@ -1,0 +1,135 @@
+header {
+  position: relative;
+  margin-bottom: 160px;
+  .logo {
+    position: relative;
+    z-index: 55;
+    font-family: 'visby_cfextra_bold';
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+
+    .logo-name {
+      p {
+        margin: 0px;
+        font-size: 29px;
+
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .logo-register {
+      display: flex;
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        font-size: 20px;
+        margin: 0px;
+
+        li:first-child {
+          margin-right: 25px;
+          display: flex;
+
+          .icon {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .container .search-input {
+    position: relative;
+    z-index: 55;
+
+    .input {
+      width: 100%;
+      margin-top: 10px;
+
+      input {
+        width: 100%;
+        height: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        outline-color: transparent;
+        font-size: 22px;
+        background-color: #E9ECF0;
+        border-radius: 5px;
+        border: 1px solid;
+        border-color: #E9ECF0;
+        padding-left: 36px;
+        padding-right: 44%;
+      }
+
+      input:placeholder {
+        font-family: 'visby_cfdemi_bold';
+        color: #D9D9D9;
+      }
+    }
+
+    .content {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      display: flex;
+      height: 100%;
+      align-items: center;
+
+      ul {
+        display: flex;
+        list-style: none;
+        padding-left: 0px;
+
+        li {
+          display: flex;
+          align-items: center;
+        }
+
+        li:first-child {
+          margin-right: 24px;
+        }
+
+        .detailed {
+          background-color: #FFD41A;
+          padding: 5px 16px;
+          border-radius: 7px;
+          color: white;
+          font-family: 'visby_cfdemi_bold';
+          font-size: 22px;
+        }
+
+        .content-add {
+          margin-left: 40px;
+          display: flex;
+          background-color: #47DE83;
+          border-radius: 9px;
+          padding: 7px 20px;
+          color: white;
+          font-size: 21px;
+          font-family: 'visby_cfbold';
+
+          .icon {
+            margin-right: 19px;
+            margin-left: 7px;
+            transform: translateY(2px);
+          }
+        }
+      }
+    }
+  }
+}

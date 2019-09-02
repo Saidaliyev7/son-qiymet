@@ -1,0 +1,195 @@
+#data-content {
+  .upper-content {
+    margin-bottom: 25px;
+
+    .upper-text {
+      font-family: 'visby_cfextra_bold';
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      >p {
+        font-size: 40px;
+        color: #7D7D7D;
+      }
+
+      a {
+        font-size: 24px;
+        color: #7D7D7D;
+      }
+    }
+  }
+
+  .content {
+    margin-bottom: 500px;
+
+    .element {
+      margin-bottom: 25px;
+      display: inline-block;
+      background-color: #E9ECF0;
+      border-radius: 10px;
+      position: relative;
+
+      .new {
+        background-color: #FF001F;
+        display: flex;
+        border-radius: 20px;
+        align-items: flex-end;
+        justify-content: center;
+        width: 54px;
+        height: 20px;
+        font-size: 12px;
+        font-family: 'DaxlinePro';
+        color: white;
+        position: absolute;
+        left: 13px;
+        top: 13px;
+      }
+
+      .img {
+        padding: 10px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .price {
+        position: absolute;
+        top: 50%;
+        left: 13px;
+        background-color: #47DE83;
+        color: white;
+        padding: 7px 12px;
+        border-radius: 7px;
+        font-family: 'roboto';
+        font-weight: bold;
+        font-size: 22px;
+
+        .price-number {
+          display: inline-block;
+
+          span {
+            margin-right: 5px;
+          }
+        }
+
+        .price-name {
+          display: inline-block;
+        }
+      }
+
+      .name {
+        font-size: 22px;
+        margin-top: 15px;
+        color: #7D7D7D;
+        font-family: 'DaxlinePro';
+        font-weight: bold;
+        margin-left: 11px;
+      }
+
+      .about {
+        margin-left: 11px;
+        margin-top: 5px;
+        margin-bottom: 25px;
+
+        ul {
+          display: flex;
+          text-decoration: none;
+          list-style-type: none;
+          padding: 0px;
+          font-size: 10px;
+          font-family: 'DaxlinePro';
+          font-weight: 500;
+
+          li {
+            padding: 4px 11px;
+            color: #7D7D7D;
+            padding-top: 3px;
+            background-color: #FFFFFF;
+            margin-right: 5px;
+            border-radius: 10px;
+          }
+        }
+      }
+
+      .date {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 11px;
+        margin-right: 9px;
+        margin-bottom: 6px;
+        .date-time {
+          align-self: flex-end;
+          color: #7D7D7D;
+          font-family: "roboto";
+          font-size: 9px;
+          margin-bottom: 4px;
+        }
+
+        ul {
+          padding: 0px;
+          display: flex;
+          list-style-type: none;
+         
+          li {
+            background-color: #FFFFFF;
+            margin-right: 3px;
+            position: relative;
+            border-radius: 8px;
+            width: 41px;
+            text-align: center;
+            .day {
+                padding: 10.5px 0px;
+                padding-top: 4px;
+                padding-bottom: 15px;
+                font-family: 'DaxlinePro';
+                font-weight: bold;
+                color: #7D7D7D;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .day-name{
+                font-family: 'DaxlinePro';
+                font-weight: 500;
+                font-size: 7px;
+                position: absolute;
+                bottom: 1px;
+                width: 37px;
+                text-align: center;
+                border-radius: 15px;
+                background-color: #35B267;
+                padding-top: 2px;
+                padding-bottom: 3px;
+                left: 2px;
+                border-top-right-radius: 200px;
+                border-bottom-right-radius: 70px;
+                color: white;
+                border-top-left-radius: 120px;
+                border-bottom-left-radius: 120px;
+            }
+          }
+        }
+      }
+    }
+    .col-md-custom{
+        justify-content: center;
+        .pagination{
+            display: flex;
+            background-color: #E9ECF0;
+            justify-content: space-between;
+            padding: 9.5px 25px;
+            border-radius: 7px;
+            ul{
+                display: flex;
+                list-style-type: none;
+                padding: 0px;
+            }
+            .pagination-next-arrow{
+                transform: rotate(180deg)
+            }
+        }
+    }
+  }
+}

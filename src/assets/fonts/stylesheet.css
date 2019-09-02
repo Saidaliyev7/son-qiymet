@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('DaxlinePro-Medium.woff2') format('woff2'),
+        url('DaxlinePro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('DaxlinePro-ExtraBold.woff2') format('woff2'),
+        url('DaxlinePro-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('DaxlinePro-Light.woff2') format('woff2'),
+        url('DaxlinePro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('DaxlinePro.woff2') format('woff2'),
+        url('DaxlinePro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('DaxlinePro-Bold.woff2') format('woff2'),
+        url('DaxlinePro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'visby_cfbold';
+    src: url('visbycf-bold-az-webfont.woff2') format('woff2'),
+         url('visbycf-bold-az-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'visby_cfdemi_bold';
+    src: url('visbycf-demibold-az-webfont.woff2') format('woff2'),
+         url('visbycf-demibold-az-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'visby_cfextra_bold';
+    src: url('visbycf-extrabold-az-webfont.woff2') format('woff2'),
+         url('visbycf-extrabold-az-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'visby_cflight';
+    src: url('visbycf-light-az-webfont.woff2') format('woff2'),
+         url('visbycf-light-az-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'visby_cfmedium';
+    src: url('visbycf-medium-az-webfont.woff2') format('woff2'),
+         url('visbycf-medium-az-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

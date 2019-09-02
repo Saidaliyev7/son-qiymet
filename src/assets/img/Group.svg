@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group" transform="translate(-11 -11)">
+    <g id="magnifying-glass" transform="translate(11 11)">
+      <path id="Shape" d="M19.165,20a.829.829,0,0,1-.59-.245l-4.808-4.8a8.427,8.427,0,1,1,1.18-1.179l4.808,4.808a.827.827,0,0,1,0,1.175A.829.829,0,0,1,19.165,20ZM8.429,1.673a6.753,6.753,0,1,0,6.755,6.755A6.763,6.763,0,0,0,8.429,1.673Z" fill="#ffd41a"/>
+    </g>
+  </g>
+</svg>
